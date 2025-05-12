@@ -1,0 +1,30 @@
+* {
+   font-family: "Poppins", sans-serif;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-color: rgb(248, 255, 255);
+}
+
+h2.title {
+   margin: 0 auto;
+   width: 90%;
+   height: 15px;
+   max-width: 1200px;
+
+   color: darkcyan;
+   font-weight: 600;
+}
+
+.list {
+   width: 90%;
+   max-width: 1200px;
+   margin: 30px auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 20px;
+}
+
