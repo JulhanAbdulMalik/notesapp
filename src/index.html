@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Notes App</title>
+   </head>
+
+   <body>
+      <!-- Header -->
+      <header>
+         <app-bar></app-bar>
+      </header>
+      <br />
+
+      <!-- Tambah note -->
+      <add-note></add-note>
+
+      <section>
+         <loading-spinner></loading-spinner>
+
+         <!-- Render semua notes -->
+         <h2 class="title">Notes List</h2>
+         <div id="notesList" class="list"></div>
+
+         <h2 class="title">Notes List - <i>Archived</i></h2>
+         <div id="notesListArchived" class="list"></div>
+      </section>
+
+      <!-- Footer -->
+      <footer-bar></footer-bar>
+   </body>
+</html>
